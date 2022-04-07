@@ -1,0 +1,28 @@
+ 
+    <div class="new_course">
+        <div class="form-group">
+            <label for="coursecode" class="text-light">Course Code</label>
+            <input type="text" name="coursecode" value="" placeholder="CS101">
+        </div>
+        <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="text" name="name" value="" placeholder="Computer Science">
+        </div>
+        <div class="form-group">
+            <label for="description" class="text-light">Description</label>
+            <input type="text" name="description" value="" placeholder="What is this course about?" required minlength="10" maxlength="100" size="70">
+        </div>
+        <div class="form-group">
+            <label for="cohort" class="text-light">Cohort:</label>
+            <select id="cohorts" name="cohorts">
+                <option value="pre-engineering">Pre-Engineering</option>
+                <option value="software">Software</option>
+                <option value="computer-systems">Computer Systems</option>
+                <option value="renewable-energies">Renewable Energies</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
